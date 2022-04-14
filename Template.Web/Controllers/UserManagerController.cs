@@ -10,7 +10,7 @@ using Template.Web.Models;
 
 namespace Template.Web.Controllers
 {
-    [Authorize(Roles = "SystemAdministrator, Developer")]
+    //[Authorize(Roles = "SystemAdministrator, Developer")]
     public class UserManagerController : Controller
     {
         private readonly UserManager<UserModel> _userManager;

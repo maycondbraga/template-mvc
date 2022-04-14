@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Template.Web.Controllers
 {
-    [Authorize(Roles = "SystemAdministrator, Developer")]
+    //[Authorize(Roles = "SystemAdministrator, Developer")]
     public class RoleManagerController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;

@@ -5,7 +5,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
-using Template.Model.Data;
 using Template.Model.Models.Admin;
 using Template.Web.Data;
 

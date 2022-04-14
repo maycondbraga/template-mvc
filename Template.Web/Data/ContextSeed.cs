@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Template.Util.Enumerators;
 using Template.Model.Models.Admin;
 
-namespace Template.Model.Data
+namespace Template.Web.Data
 {
     public static class ContextSeed
     {
